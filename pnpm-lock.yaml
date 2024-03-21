@@ -326,8 +326,8 @@ importers:
         specifier: ^4.10.0
         version: 4.10.0(webpack-bundle-analyzer@4.9.1)(webpack@5.88.2)
       webpack-dev-middleware:
-        specifier: 6.0.1
-        version: 6.0.1(webpack@5.88.2)
+        specifier: 6.1.2
+        version: 6.1.2(webpack@5.88.2)
       webpack-hot-middleware:
         specifier: ^2.25.3
         version: 2.25.4
@@ -18366,11 +18366,14 @@ packages:
       webpack-bundle-analyzer: 4.9.1
       webpack-merge: 5.9.0
 
-  /webpack-dev-middleware@6.0.1(webpack@5.88.2):
-    resolution: {integrity: sha512-PZPZ6jFinmqVPJZbisfggDiC+2EeGZ1ZByyMP5sOFJcPPWSexalISz+cvm+j+oYPT7FIJyxT76esjnw9DhE5sw==}
+  /webpack-dev-middleware@6.1.2(webpack@5.88.2):
+    resolution: {integrity: sha512-Wu+EHmX326YPYUpQLKmKbTyZZJIB8/n6R09pTmB03kJmnMsVPTo9COzHZFr01txwaCAuZvfBJE4ZCHRcKs5JaQ==}
     engines: {node: '>= 14.15.0'}
     peerDependencies:
       webpack: ^5.0.0
+    peerDependenciesMeta:
+      webpack:
+        optional: true
     dependencies:
       colorette: 2.0.20
       memfs: 3.5.3
